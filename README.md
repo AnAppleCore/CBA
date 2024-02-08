@@ -4,7 +4,7 @@ This is an official PyTorch implementation of [**"CBA: Improving Online Continua
 
 Please contact Quanziang Wang ([quanziangwang@gmail.com](mailto:quanziangwang@gmail.com)), Renzhen Wang ([rzwang@xjtu.edu.cn](mailto:rzwang@xjtu.edu.cn)), or Deyu Meng ([dymeng@xjtu.edu.cn](mailto:dymeng@xjtu.edu.cn)).
 
-![Main Illustration](https://github.com/wqza/CBA-online-CL/blob/main/pics/main_illustration.png)
+![Main Illustration](./pics/main_illustration.png)
 
 * We extended the [Mammoth](https://github.com/aimagelab/mammoth) framework with our method and applied it to various rehearsal-based baselines.
 
