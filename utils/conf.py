@@ -23,16 +23,14 @@ def data_path() -> str:
     """
     Returns the data path.
     """
-    return '/home/iid/WQZA/dataset/'
-    # return 'E://dataset/'
+    return '/home/hongwei/data/'
 
 
 def base_path() -> str:
     """
     Returns the base bath where to log accuracies and tensorboard data.
     """
-    return '/home/iid/WQZA/code/DER/'
-    # return './'
+    return '/home/hongwei/CBA/'
 
 
 def set_random_seed(seed: int) -> None:

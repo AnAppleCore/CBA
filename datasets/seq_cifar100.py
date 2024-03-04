@@ -33,7 +33,7 @@ class MyCIFAR100(CIFAR100):
         self.root = root
         super(MyCIFAR100, self).__init__(root, train, transform, target_transform, not self._check_integrity())
 
-    def __getitem__(self, index: int) -> Tuple[type(Image), int, type(Image)]:
+    def __getitem__(self, index: int) -> Tuple[Image.Image, int, Image.Image]:
         """
         Gets the requested element from the dataset.
         :param index: index of the element to be returned

@@ -34,7 +34,7 @@ import datetime
 
 def lecun_fix():
     # Yann moved his website to CloudFlare. You need this now
-    from six.moves import urllib
+    from six.moves import urllib  # pyright: ignore
     opener = urllib.request.build_opener()
     opener.addheaders = [('User-agent', 'Mozilla/5.0')]
     urllib.request.install_opener(opener)
